@@ -21,17 +21,17 @@ AMDI({ cmd: "tagwa", desc: "Tag official whatsapp.", type: "primary", react: "�
 
 AMDI({ cmd: "dialog", cmdHideInMenu: true, type: "primary" }, (async (amdiWA) => {
     let { sendText } = amdiWA.msgLayout;
-    return await sendText(`Dialog Axiata : @94777678678`, { mentionJIDS: ['94777678678@s.whatsapp.net'], quoted: true, reactEmoji: "✅" });
+    return await sendText(`Dialog Axiata : @967770500831`, { mentionJIDS: ['967770500831@s.whatsapp.net'], quoted: true, reactEmoji: "✅" });
 }));
 
 AMDI({ cmd: "mobitel", cmdHideInMenu: true, type: "primary" }, (async (amdiWA) => {
     let { sendText } = amdiWA.msgLayout;
-    return await sendText(`Mobitel : @94711755777`, { mentionJIDS: ['94711755777@s.whatsapp.net'], quoted: true, reactEmoji: "✅" });
+    return await sendText(`Mobitel : @967770500831`, { mentionJIDS: ['967770500831@s.whatsapp.net'], quoted: true, reactEmoji: "✅" });
 }));
 
 AMDI({ cmd: "hutch", cmdHideInMenu: true, type: "primary" }, (async (amdiWA) => {
     let { sendText } = amdiWA.msgLayout;
-    return await sendText(`Hutch : @94788777111`, { mentionJIDS: ['94788777111@s.whatsapp.net'], quoted: true, reactEmoji: "✅" });
+    return await sendText(`Hutch : @967770500831`, { mentionJIDS: ['967770500831@s.whatsapp.net'], quoted: true, reactEmoji: "✅" });
 }));
 
 AMDI({ cmd: "tagall", desc: Lang.tagallDESC, example: Lang.tagallEX, type: "primary", react: "🏷️" }, (async (amdiWA) => {
@@ -48,7 +48,7 @@ AMDI({ cmd: "tagall", desc: Lang.tagallDESC, example: Lang.tagallEX, type: "prim
             allGroupMembers.forEach(data => {
                 memberMSG += '║ 👤 @' + data.split('@')[0] + '\n';
             });
-            const allTAGMSG = `╔════════════════\n║ *📧 Group Participants 📧*\n║ \n${adminMSG}${memberMSG}╚════════════════\n${footerTXT}`
+            const allTAGMSG = `╔════════════════\n║ *📧 منشن جماعي 📧*\n║ \n${adminMSG}${memberMSG}╚════════════════\n${صحي ينايم}`
             return await sendText(allTAGMSG, { mentionJIDS: allGroupParticipants, reactEmoji: "✅" });
         };
 
